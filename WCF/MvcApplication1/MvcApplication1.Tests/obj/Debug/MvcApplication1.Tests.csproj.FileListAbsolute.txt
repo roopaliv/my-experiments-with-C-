@@ -1,0 +1,1 @@
+C:\Users\rvij\Desktop\POC\WCF\MvcApplication1\MvcApplication1.Tests\obj\Debug\ResolveAssemblyReference.cache
