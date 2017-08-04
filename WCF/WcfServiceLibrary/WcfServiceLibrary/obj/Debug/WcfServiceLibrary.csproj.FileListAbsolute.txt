@@ -1,0 +1,6 @@
+C:\Users\rvij\Desktop\POC\WCF\WcfServiceLibrary\WcfServiceLibrary\bin\Debug\WcfServiceLibrary.dll.config
+C:\Users\rvij\Desktop\POC\WCF\WcfServiceLibrary\WcfServiceLibrary\bin\Debug\WcfServiceLibrary.dll
+C:\Users\rvij\Desktop\POC\WCF\WcfServiceLibrary\WcfServiceLibrary\bin\Debug\WcfServiceLibrary.pdb
+C:\Users\rvij\Desktop\POC\WCF\WcfServiceLibrary\WcfServiceLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rvij\Desktop\POC\WCF\WcfServiceLibrary\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.dll
+C:\Users\rvij\Desktop\POC\WCF\WcfServiceLibrary\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.pdb
