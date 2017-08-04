@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ExternalSystems>
+  <System name ="RefMaster">
+    
+    <TaskFetchInfo type ="DB">
+      <Connection>RefMasterDB</Connection>
+      <DataSourceName>ivp_refm_Configured_tasks</DataSourceName>
+      <ColumnToFilter>task_type_id</ColumnToFilter>
+      <FilterValues>2</FilterValues>
+      <IDColumnName>task_master_id</IDColumnName>
+      <NameColumnName>task_name</NameColumnName>
+      <Query></Query>
+    </TaskFetchInfo>
+    
+    <TaskExecutionInfo type = "EXE">
+      <ExePath>G:\refBuildWrap\ExecuteRefMasterTaskFromExternalSystem.exe</ExePath>
+    </TaskExecutionInfo>
+    
+  </System>
+
+
+  <System name ="SecMaster">
+
+    <TaskFetchInfo type ="DB">
+      <Connection>RefMasterDB</Connection>
+      <DataSourceName>GetTaskView</DataSourceName>
+      <ColumnToFilter>task_type</ColumnToFilter>
+      <FilterValues>2</FilterValues>
+      <IDColumnName>task_id</IDColumnName>
+      <NameColumnName>task_name</NameColumnName>
+      <Query></Query>
+    </TaskFetchInfo>
+
+    <TaskExecutionInfo type = "EXE">
+      <ExePath>G:\refBuildWrap\ExecuteRefMasterTaskFromExternalSystem.exe</ExePath>
+    </TaskExecutionInfo>
+
+  </System>
+  
+  
+</ExternalSystems>

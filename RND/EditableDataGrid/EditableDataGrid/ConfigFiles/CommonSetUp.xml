@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CommonSetUp>
+  <DataTypeInfo>
+    <GeneralDataType>Int32,Boolean,Double,Decimal,String,DateTime,Char</GeneralDataType>
+    <SSISDataType>Boolean,Byte,char,DateTime,Decimal,Double,Int16,Int32,Int64,SByte,Single,String,UInt16,UInt32,UInt64</SSISDataType>
+    <SQLDataType>String,Guid,Int16,Int32,Int64,DateTime,Decimal,Double,Boolean,Char</SQLDataType>
+  </DataTypeInfo>
+</CommonSetUp>

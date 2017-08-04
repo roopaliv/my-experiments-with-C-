@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <section ignoreprivilege="true">
+    <header>
+      PnL DashBoards
+    </header>
+    <br />
+    <body maxitem="5">
+      <Item name="PnL DashBoards" sourcehref="Home.aspx?identifier=PnlDashBoards" />
+      <Item name="PnLDash" sourcehref="Home.aspx?identifier=PnLDash" />
+    </body>
+  </section>
+  <section ignoreprivilege="true">
+    <header>
+      PnL Grid
+    </header>
+    <br />
+    <body maxitem="5">
+      <Item name="PnL Grid" sourcehref="Home.aspx?identifier=PnlGridViewer" />
+    </body>
+  </section>
+  <section ignoreprivilege="true">
+    <header>
+      PnL by Sector
+    </header>
+    <br />
+    <body maxitem="5">
+      <Item name="PnL by Sector" sourcehref="Home.aspx?identifier=SectorAnalysis" />
+    </body>
+  </section>
+  <section ignoreprivilege="true">
+    <header>
+      Profitability
+    </header>
+    <br />
+    <body maxitem="5">
+      <Item name="Profitability" sourcehref="Home.aspx?identifier=PnlProfitability" />
+    </body>
+  </section>
+  <section ignoreprivilege="true">
+    <header>
+      PnL Print Summary
+    </header>
+    <br />
+    <body maxitem="5">
+      <Item name="PnL Print Summary" sourcehref="Home.aspx?identifier=PositionBlotter" />
+    </body>
+  </section>
+  <section ignoreprivilege="true">
+    <header>
+      PnL Reporting Pack
+    </header>
+    <br />
+    <body maxitem="5">
+      <Item name="PnL Reporting Pack" sourcehref="/Analytics/PnLReportingPack.aspx" />
+    </body>
+  </section>
+  <section ignoreprivilege="true">
+    <header>
+      Reports
+    </header>
+    <br />
+    <body maxitem="6">
+      <Item name="Contribution Analysis" sourcehref="Home.aspx?identifier=Contribution Analysis" />
+      <Item name="PnL Positions" sourcehref="Home.aspx?identifier=PnL Positions" />
+      <Item name="PnL Distribution" sourcehref="Home.aspx?identifier=PnL Distribution" />
+      <Item name="Top5PnL Contributor" sourcehref="Home.aspx?identifier=Top5PnL Contributor" />
+      <Item name="PnL Analysis" sourcehref="/Analytics/PnLReportingPack.aspx" />
+      <Item name="PnL Analysis Strategy" sourcehref="/Analytics/PnLReportingPack.aspx" />
+    </body>
+  </section>
+  <section ignoreprivilege="true">
+    <header>
+      Daily Reporting Pack
+    </header>
+    <br />
+    <body maxitem="5">
+      <Item name="Manage Reporting Pack" sourcehref="/ReportingPack/ReportingDetails.aspx" />
+      <Item name="Preview Reporting Pack" sourcehref="/ReportingPack/ReportingPackPreview.aspx" />
+    </body>
+  </section>
+  <section ignoreprivilege="true">
+    <header>
+      Custom Reports
+    </header>
+    <br />
+    <body maxitem="5">
+      <Item name="Custom Reports" sourcehref="/CustomReport.aspx?ModuleName=Analytics" />
+    </body>
+  </section>
+</root>

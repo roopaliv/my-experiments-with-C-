@@ -1,0 +1,84 @@
+﻿<root>
+  <section ignoreprivilege="true">
+    <header realName="Menu-Deal Analysis">
+      Deal Analysis
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Deal Summary" sourcehref="Home.aspx?identifier=DealSummary" />
+      <Item name="P&amp;L Summary" sourcehref="Home.aspx?identifier=PnLSummary" />
+      <Item name="Top5" sourcehref="Home.aspx?identifier=Top5" />
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header realName="Menu-Cash Flow Analysis">
+      Cash Flow Analysis
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Vintage Year" sourcehref="Home.aspx?identifier=VintageYear" />
+      <Item name="Primary Analyst" sourcehref="Home.aspx?identifier=PrimaryAnalyst" />
+    </body>
+  </section>
+  
+  <section ignoreprivilege="true">
+    <header realName="Menu-Deals-CommAndLostDealSummary">
+      Commitment &amp; Lost Deals Summary
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Commitment &amp; Lost Deals Summary" sourcehref="Home.aspx?identifier=CommitmentAndLostDealSummary" />
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header realName="Menu-Deals-AssetClassBreakdown">
+      Asset Class Breakdown
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Asset Class Breakdown" sourcehref="Home.aspx?identifier=AssetClassBreakdown" />
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header realName="Menu-Deals-AnalystBreakdown">
+      Analyst Breakdown
+    </header>
+    <br/>
+    <body maxitem="8">
+      <Item name="Analyst Breakdown" sourcehref="Home.aspx?identifier=AnalystBreakdown" />
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header realName="Menu-Deals-OfficeBreakdown">
+      Office Breakdown
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Office Breakdown" sourcehref="Home.aspx?identifier=OfficeBreakdown" />
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header realName="Menu-Deals-VintageYearReport">
+      Vintage Year Report
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Vintage Year Report" sourcehref="Home.aspx?identifier=VintageYearAnalysis" />
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header realName="Menu-Deals-MatrixReport">
+      Matrix Report
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Matrix Report" sourcehref="Home.aspx?identifier=MatrixReport.aspx" />
+    </body>
+  </section>
+</root>

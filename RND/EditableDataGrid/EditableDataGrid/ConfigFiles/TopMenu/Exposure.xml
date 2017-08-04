@@ -1,0 +1,91 @@
+﻿<root>
+  <section ignoreprivilege="true">
+    <header>
+      Capital Structure
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Capital Structure" sourcehref="Home.aspx?identifier=RiskCapitalStructure" />
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Top Exposure
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Top Exposure" sourcehref="Home.aspx?identifier=TopExposure"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Exposure DashBoards
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Exposure DashBoards" sourcehref="Home.aspx?identifier=ExposureMain"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Issuer Exposure Report
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Issuer Exposure Report" sourcehref="Home.aspx?identifier=IssuerExposure"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Positions Summary
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Positions Summary" sourcehref="Home.aspx?identifier=PositionSummary"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Position Summary Exposure
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Position Summary Exposure" sourcehref="Home.aspx?identifier=PositionSummaryExposure"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Positions Exposure
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Positions Exposure" sourcehref="Home.aspx?identifier=OpsPositionSummaryExposure"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Top Positions
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Top Positions" sourcehref="Home.aspx?identifier=Top10Exposures"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Custom Reports
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Custom Reports" sourcehref="/CustomReport.aspx?ModuleName=Exposure"/>
+    </body>
+  </section>
+</root>

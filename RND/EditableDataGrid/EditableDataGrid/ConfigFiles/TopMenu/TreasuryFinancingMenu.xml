@@ -1,0 +1,113 @@
+﻿<root>
+  <section ignoreprivilege="true">
+    <header>
+      Capital Allocation
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Capital Allocation" sourcehref="Home.aspx?identifier=CapitalAllocation" />
+      <!--<Item name="Capital Allocation" sourcehref="Modules/PTreasuryFinance/ConfigureFundCapital.aspx" />-->      
+      <Item name="Capital Allocation Dashboard" sourcehref="Modules/PTreasuryFinance/CapitalAllocationDashboard.aspx" />
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Cash Summary
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Settlement Day Cash Reports" sourcehref="Home.aspx?identifier=SettlementDayCashReports"/>
+      <Item name="Cash Balance Summary" sourcehref="Home.aspx?identifier=CashBalanceSummary"/>
+      <!--<Item name="Settlement Day Cash Reports" sourcehref="Modules/PTreasuryFinance/SettlementDayCashSummary.aspx"/>
+      <Item name="Cash Balance Summary" sourcehref="Modules/PTreasuryFinance/CashBalanceSummary.aspx"/>-->
+    </body>
+  </section>
+  
+  <section ignoreprivilege="true">
+    <header>
+      Equity Finance
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Blotter" sourcehref="Home.aspx?identifier=EquityFinanceBlotter"/>
+      <!--<Item name="File Load Status" sourcehref="/Operations/CostOfCarryAnalysis.aspx"/>-->
+      <Item name="Reports" sourcehref="Home.aspx?identifier=EquityFinanceReports"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Margin
+    </header>
+    <br/>
+    <body maxitem="16">
+      <Item name="Configuration" sourcehref="Modules/PTreasuryFinance/MarginConfiguration.aspx"/>
+      <Item name="Margin Blotter" sourcehref="Modules/PTreasuryFinance/MarginBlotter.aspx"/>
+      <Item name="Margin Reports" sourcehref="Modules/PTreasuryFinance/MarginAnalysis.aspx"/>
+      <Item name="MarginTrendingReport" sourcehref="Home.aspx?identifier=MarginTrendingReport"/>
+      <!--<Item name="MarginTrendingReport" sourcehref="Modules/PTreasuryFinance/MarginTrendingReport.aspx"/>-->
+      <Item name="Report : Collateralization Balance" sourcehref="Modules/PTreasuryFinance/MarginFormattedReports.aspx?Rep=CollateralizationBalance"/>
+      <Item name="Report : Collateralization Details" sourcehref="Modules/PTreasuryFinance/MarginFormattedReports.aspx?Rep=CollateralizationDetails"/>
+      <Item name="Report : Margin Collateral" sourcehref="Modules/PTreasuryFinance/MarginFormattedReports.aspx?Rep=GetMarginCollateral"/>
+      <Item name="Report : External Detail" sourcehref="Modules/PTreasuryFinance/MarginFormattedReports.aspx?Rep=MarginExternalDetail"/>
+      <Item name="Report : External Sumary" sourcehref="Modules/PTreasuryFinance/MarginFormattedReports.aspx?Rep=MarginExternalSumary"/>
+      <Item name="Report : Internal Detail" sourcehref="Modules/PTreasuryFinance/MarginFormattedReports.aspx?Rep=MarginInternalDetail"/>
+      <Item name="Report : Internal Sumary" sourcehref="Modules/PTreasuryFinance/MarginFormattedReports.aspx?Rep=MarginInternalSummary"/>
+      <Item name="Report : Reconciliation" sourcehref="Modules/PTreasuryFinance/MarginFormattedReports.aspx?Rep=MarginReconciliation"/>
+      <Item name="Report : Open Break" sourcehref="Modules/PTreasuryFinance/MarginFormattedReports.aspx?Rep=OpenBreak"/>
+      <Item name="Report : Capital Excess Analysis" sourcehref="Modules/PTreasuryFinance/MarginFormattedReports.aspx?Rep=CapitalExcessAnalysis"/>
+      <Item name="Report : Margin Requirement Analysis" sourcehref="/CustomReport.aspx?ModuleName=Margin"/>
+      <Item name="Custom Reports" sourcehref="/CustomReport.aspx?ModuleName=Margin"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Broker Fee
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Broker Fee" sourcehref="Home.aspx?identifier=BrokerFee"/>
+      <!--<Item name="Broker Fee" sourcehref="Modules/PTreasuryFinance/BrokerFee.aspx"/>-->
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Wire Manager
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Wire Manager" sourcehref="Modules/PTreasuryFinance/CashMain.aspx"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Custom Reports
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Custom Reports" sourcehref="Modules/CustomReport.aspx?ModuleName=Finance"/>
+    </body>
+  </section>
+  <!--<section ignoreprivilege="true">
+    <header>
+      Vintage Year Analysis
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Custom Vintage Reports" sourcehref="Home.aspx?identifier=VintageYearAnalysis" />
+    </body>
+  </section>
+  <section ignoreprivilege="true">
+    <header>
+      Top PnL Position
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Top PnL Positions" sourcehref="Home.aspx?identifier=TopPnLPositions" />
+    </body>
+  </section>-->
+</root>

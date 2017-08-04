@@ -1,0 +1,126 @@
+﻿<root>
+  <section ignoreprivilege="true">
+    <header>
+      Ad-Hoc Returns Analysis
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Ad-Hoc Returns Analysis" sourcehref="Home.aspx?identifier=TimeWeightedAllocationReturns" />
+      <Item name="PerformanceReport" sourcehref="Home.aspx?identifier=PerformanceReport" />      
+      <Item name="ReturnOnCapital" sourcehref="Home.aspx?identifier=ReturnOnCapital" />
+    </body>
+  </section>
+  <!--<section ignoreprivilege="true">
+    <header>
+      TimeWeightedAllocationReturns
+    </header>
+    <br/>
+    <body maxitem="6">
+      <Item name="TimeWeightedAllocationReturns" sourcehref="Home.aspx?identifier=TimeWeightedAllocationReturns" />
+      <Item name="PerformanceReport" sourcehref="Home.aspx?identifier=PerformanceReport" />
+      <Item name="PerformanceHierarchy" sourcehref="Home.aspx?identifier=PerformanceHierarchy" />
+      <Item name="ReturnOnCapital" sourcehref="Home.aspx?identifier=ReturnOnCapital" />
+    </body>
+  </section>-->
+
+  <section ignoreprivilege="true">
+    <header>
+      CumulativeTimeSeries
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="CumulativeTimeSeries" sourcehref="Home.aspx?identifier=CumulativeTimeSeries" />
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      MatrixReport
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="MatrixReport" sourcehref="Home.aspx?identifier=MatrixReport" />
+    </body>
+  </section>
+  
+  <section ignoreprivilege="true">
+    <header>
+      Portfolio Drivers Analysis
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Portfolio Drivers Analysis" sourcehref="Home.aspx?identifier=PortfolioDriverAnalysis"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Comparative Analysis
+    </header>
+    <br/>
+    <body maxitem="12">
+      <Item name="Configuration : Benchmarks" sourcehref="Home.aspx?identifier=Benchmark"/>
+      <Item name="Configuration : Override Benchmarks" sourcehref="Home.aspx?identifier=BenchmarkHierarchyExceptionMapping" />
+      <Item name="Configuration : Create Performance Hierarchy" sourcehref="Home.aspx?identifier=PerformanceHierarchy"/>      
+      <Item name="Number Ratios" sourcehref="Home.aspx?identifier=NumberRatios"/>
+      <Item name="Gain Loss Deviations" sourcehref="Home.aspx?identifier=GainLossDeviations"/>
+      <Item name="Time Weighted Returns - All Returns" sourcehref="Home.aspx?identifier=TWRRAllIntervals"/>
+      <Item name="Cumulative Returns" sourcehref="Home.aspx?identifier=CumulativeReturns"/>
+      <Item name="Capture Ratio Analysis" sourcehref="Home.aspx?identifier=CaptureRatios"/>
+      <Item name="Batting Averages" sourcehref="Home.aspx?identifier=BattingAverages"/>
+      
+      
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Turnover Analysis
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Traditional Turnover" sourcehref="Home.aspx?identifier=TraditionalTurnover"/>
+      <Item name="Position Holding Period" sourcehref="Home.aspx?identifier=AverageHoldingPeriod"/>
+      <Item name="Security Holding Period" sourcehref="Home.aspx?identifier=SecurityHoldingPeriod"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      ROA Reports
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="ROA Report" sourcehref="Home.aspx?identifier=ReturnOnSector"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Strategy Scorecards
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Strategy Scorecards" sourcehref="/PnL/StrategyScorecards.aspx"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Portfolio Scorecards
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Portfolio Scorecards" sourcehref="/PnL/PortfolioScorecards.aspx"/>
+    </body>
+  </section>
+  <section ignoreprivilege="true">
+    <header>
+      Custom Reports
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Custom Analysis" sourcehref="Home.aspx?identifier=CustomAnalysis"/>
+    </body>
+  </section>
+</root>

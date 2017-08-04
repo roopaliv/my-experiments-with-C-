@@ -1,0 +1,149 @@
+﻿<root>
+  <section ignoreprivilege="true">
+    <header>
+      Grid Writer Toolkit
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Configure Grid Report" sourcehref="/GridCustomReport/GridReportConfiguration.aspx" />
+      <Item name="View Grid Report" sourcehref="/GridCustomReport/GridReports.aspx"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Opportunity
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Trade Opportunity" sourcehref="/Analytics/OpportunityPnL.aspx"/>
+      <Item name="Custom Reports" sourcehref="/CustomReport.aspx?ModuleName=Opportunity"/>
+    </body>
+  </section>
+  
+  <section ignoreprivilege="true">
+    <header>
+      StockLoan
+    </header>
+    <br/>
+    <body maxitem="16">
+      <Item name="Position Blotter" sourcehref="/Operations/PositionBlotter.aspx"/>
+      <Item name="Short Locate Requirement" sourcehref="/Finance/ShortLocateRequirement.aspx"/>
+      <Item name="Broker Response" sourcehref="/Compliance/ShortLocateInfo.aspx"/>
+      <Item name="Stock Loan Reports" sourcehref=""/>
+      <Item name="Locate Availability Dashboard" sourcehref="/Compliance/LocateAvailabilityDashboard.aspx"/>
+      <Item name="ShortLocate Exception" sourcehref="/Compliance/ShortLocateExceptionDashboard.aspx"/>
+      <Item name="Rate Trending" sourcehref="/Finance/RateTrending.aspx"/>
+      <Item name="Report : Blotter Final" sourcehref="/Operations/StockLoanFormattedReports.aspx?Rep=PositionBlotter"/>
+      <Item name="Report : Broker Response" sourcehref="/Operations/StockLoanFormattedReports.aspx?Rep=BrokerResponse"/>
+      <Item name="Report : CostByStrategy Report" sourcehref="/Operations/StockLoanFormattedReports.aspx?Rep=CostByStrategyReport"/>
+      <Item name="Report : MTDCostByStrategy Report" sourcehref="/Operations/StockLoanFormattedReports.aspx?Rep=MTDCostByStrategyReport"/>
+      <Item name="Report : Over Borrow" sourcehref="/Operations/StockLoanFormattedReports.aspx?Rep=OverBorrow"/>
+      <Item name="Report : RateChange Report" sourcehref="/Operations/StockLoanFormattedReports.aspx?Rep=RateChangeReport"/>
+      <Item name="Report : RateComparision Report" sourcehref="/Operations/StockLoanFormattedReports.aspx?Rep=RateComparisionReport"/>
+      <Item name="Report : Rate Trending" sourcehref="/Operations/StockLoanFormattedReports.aspx?Rep=RateTrending"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Workflow Application
+    </header>
+    <br/>
+    <body maxitem="6">
+      <Item name="Contract Status Manager" sourcehref="/OTC/Contract_Status_Manager.aspx"/>
+      <Item name="Document Upload Manager" sourcehref="/OTC/Document_Upload_Manager.aspx"/>
+      <Item name="Report : Distribution By OTC Type" sourcehref="/OTC/Contract_Distribution_By_OTCType_Report.aspx"/>
+      <Item name="Report : Contract Details Report" sourcehref="/OTC/OTCReports.aspx"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      BrokerVote
+    </header>
+    <br/>
+    <body maxitem="9">
+      <Item name="Evaluation Parameters" sourcehref="/BrokerVote/EvaluationParameters.aspx"/>
+      <Item name="Ratings" sourcehref="/BrokerVote/Ratings.aspx"/>
+      <Item name="Evaluation Criteria" sourcehref="/BrokerVote/EvaluationCriteria.aspx"/>
+      <Item name="User Evaluation" sourcehref="/BrokerVote/UserEvaluation.aspx"/>
+      <Item name="Evaluation Reports" sourcehref="/BrokerVote/EvaluationReports.aspx"/>
+      <Item name="Evaluation Details" sourcehref="/BrokerVote/DetailedReport.aspx"/>
+      <Item name="TimeSeries Reports" sourcehref="/BrokerVote/EvaluationTSReports.aspx"/>
+      <Item name="Fee-Rating Comparison" sourcehref="/BrokerVote/BrokerFeeRating.aspx"/>
+      <Item name="Fee-Rating TimeSeries" sourcehref="/BrokerVote/BrokerFeeRatingTS.aspx"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Legal
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Contracts" sourcehref="/Legal/Contract.aspx"/>
+      <Item name="ExpiringContracts" sourcehref="/Legal/ExpiringContract.aspx"/>
+      <Item name="Vendor" sourcehref="/Legal/Vendor.aspx"/>
+      <Item name="Custom Reports" sourcehref="/CustomReport.aspx?ModuleName=Legal"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      SecurityMaster
+    </header>
+    <br/>
+    <body maxitem="12">
+      <Item name="Monitor" sourcehref="/Admin/SecMasterLink.aspx"/>
+      <Item name="Security Details" sourcehref="/Admin/SecurityDetails.aspx"/>
+      <Item name="Custom Report : Exposure Report" sourcehref="/PnL/ExposureReport.aspx"/>
+      <Item name="Custom Report : Master Holding Report" sourcehref="/Operations/MasterHolding.aspx"/>
+      <Item name="Custom Report : Sample Attribution Report" sourcehref="/Operations/AttributionReport.aspx"/>
+      <Item name="Custom Report : Print Summary" sourcehref="/Operations/PrintSummary.aspx"/>
+      <Item name="Custom Report : Monthly Transparency Reports" sourcehref="/Operations/MonthlyReports.aspx"/>
+      <Item name="Custom Report : Custom Analysis-Matrix Report" sourcehref="/PerformanceManagement/MatrixReport.aspx"/>
+      <Item name="Custom Report : Custom Analysis-Top PnL Positions" sourcehref="/PerformanceManagement/TopPnLPositions.aspx"/>
+      <Item name="Custom Report : Custom Analysis-Position Analysis Report" sourcehref="/PerformanceManagement/PerformanceReport.aspx"/>
+      <Item name="Custom Report : Custom Analysis-Vintage Year Analysis" sourcehref="/PerformanceManagement/VintageYearAnalysis.aspx"/>
+      <Item name="Custom Report : Custom Analysis-Matrix Report" sourcehref="/PerformanceManagement/CustomAnalysis.aspx"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      DemoReports
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Pnl By Sector" sourcehref="Home.aspx?identifier=SectorAnalysis"/>
+      <Item name="ROA Report" sourcehref="/PerformanceManagement/ReturnOnSector.aspx"/>
+      <Item name="Portfolio Driver Analysis" sourcehref="/PerformanceManagement/PortfolioDriverAnalysis.aspx"/>
+      <Item name="Issuer Exposure Report" sourcehref="/Risk/IssuerExposure.aspx"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Custom Reports
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Exposure Summary" sourcehref="/PnL/ExposureReport.aspx"/>
+      <Item name="Master Holding Report" sourcehref="/Operations/MasterHolding.aspx"/>
+      <Item name="Sample Attribution Report" sourcehref="/Operations/AttributionReport.aspx"/>
+      <Item name="Print Summary" sourcehref="/Operations/PrintSummary.aspx"/>
+      <Item name="Monthly Transparency Reports" sourcehref="/Operations/MonthlyReports.aspx"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+     Recon
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Custom Reports" sourcehref="~/CustomReport.aspx?ModuleName=Recon"/>
+    </body>
+  </section>
+  </root>

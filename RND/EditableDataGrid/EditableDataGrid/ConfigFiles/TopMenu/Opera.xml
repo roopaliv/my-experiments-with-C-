@@ -1,0 +1,13 @@
+﻿<root>
+  <section ignoreprivilege="true">
+    <header realName="Opera">
+      Opera
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Configuration" sourcehref="Home.aspx?identifier=OperaConfiguration" realName="OperaConfiguration" />
+      <Item name="Reports" sourcehref="Home.aspx?identifier=OperaReports" realName="OperaReports" />
+      <Item name="Sample" sourcehref="Home.aspx?identifier=OperaSample" realName="OperaSample" />
+    </body>
+  </section>
+</root>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ETL>
+  <!--<db name ="Reference Master" schema="dbo" haslinkserver="false" linkservername="[192.168.0.63\loc05e].[ivprefmastervendor]" isSameDB="false">  </db>-->
+  <source name="Reference Master" schema="dbo" linkservername="[192.168.0.63\loc05e].[ivprefmastervendor]" isSourceDBOnSameServer="false">
+    <connection>
+      <current connectionid="RefMasterDB" />
+      <achive connectionid="" />
+    </connection>
+    <trigger type="exe" path="C:\refBuildWrap\ExecuteRefMasterTaskFromExternalSystem.exe" />
+    <taskinfo sourcename="ivp_refm_Configured_tasks" type="view" task_type_value="Load Vendor" type_column_name="task_type_name" />
+    <!--proc/table/func-->
+    <target defaultSchema="refmaster">
+      <!--Create a drop down on UI for existing schemas-->
+    </target>
+  </source>
+</ETL>

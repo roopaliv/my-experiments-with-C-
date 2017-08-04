@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DBSettings>
+  <connections>
+	
+	<connection>
+      <id>SecMVendorDB</id>
+      <db>SQL</db>
+      <connstring>Data Source= 10.0.0.147\SecMaster;Initial Catalog=IVPSecMasterVendor;User ID=sa;password=sa@123;Min Pool Size=10;Max Pool Size=1000;Connect Timeout=600;</connstring>
+    </connection>
+	
+	<connection>
+      <id>refMDBVendor</id>
+      <db>SQL</db>
+      <connstring>Data Source= 10.0.0.147\SecMaster;Initial Catalog=IVPRefMasterVendor;User ID=sa;password=sa@123;Min Pool Size=10;Max Pool Size=1000;Connect Timeout=10;</connstring>
+    </connection>
+    
+	<connection>
+      <id>polarisDevDB</id>
+      <connstring>Data Source=10.0.0.147;Initial Catalog=PolarisNewDemo;User ID=polaris;Password=polaris;Connect Timeout=20</connstring>
+    </connection>
+  
+  </connections>
+  <configsettings>
+    <minpool>0</minpool>
+    <maxpool>50</maxpool>
+    <idletimeout>600</idletimeout>
+    <timeinterval>10</timeinterval>
+  </configsettings>
+</DBSettings>

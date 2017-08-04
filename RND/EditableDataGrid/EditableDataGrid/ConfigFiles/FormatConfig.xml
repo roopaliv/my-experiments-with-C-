@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<formats>
+  <jqueryDateformatCollection>
+    <format jquery="dd/mm/yy" net="dd/MM/yyyy" />
+    <format jquery="mm/dd/yy" net="MM/dd/yyyy" />
+    <format jquery="mm.dd.yy" net="MM.dd.yyyy" />
+  </jqueryDateformatCollection>
+</formats>

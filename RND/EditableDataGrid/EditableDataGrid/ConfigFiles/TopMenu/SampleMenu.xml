@@ -1,0 +1,18 @@
+﻿<root>
+  <section ignoreprivilege="true">
+    <header realName="TaskManagement1"  >
+      Sample
+    </header>
+    <br/>
+    <body maxitem="6">
+      <Item name="Sample Page" sourcehref="Home.aspx?identifier=SamplePage"  />
+      <Item name="Task Manager Page" sourcehref="Home.aspx?identifier=TaskManagement" realName="TaskManagement" />
+      <Item name="Task Config Page" sourcehref="Home.aspx?identifier=TaskConfiguration" realName="TaskConfiguration" />
+      <Item name="Task Run Status Page" sourcehref="Home.aspx?identifier=TaskStatus" realName="TaskStatus"/>
+      <Item name="Report Viewer" sourcehref="Home.aspx?identifier=ReportViewerSample" realName="ReportViewerSample" />
+      <Item name="UserManagement Page" sourcehref="Home.aspx?identifier=UserManagement" />
+      <Item name="GroupManagement Page" sourcehref="Home.aspx?identifier=GroupManagement" />
+      <Item name="RoleManagement Page" sourcehref="Home.aspx?identifier=RoleManagement" />
+    </body>
+  </section>
+</root>

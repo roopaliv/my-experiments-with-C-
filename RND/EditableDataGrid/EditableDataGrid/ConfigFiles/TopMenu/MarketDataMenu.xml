@@ -1,0 +1,41 @@
+﻿<root>
+  <section ignoreprivilege="true">
+    <header>
+      Configure Data Categories
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Configure Data Categories" sourcehref="/Modules/MarketData/MarketMeasureSetting.aspx" />
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Available Data Sets
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Available Data Sets" sourcehref="/Modules/MarketData/MarketMeasureColumns.aspx"/>
+    </body>
+  </section>
+  
+  <section ignoreprivilege="true">
+    <header>
+      Configure Views
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Configure Views" sourcehref="/Modules/MarketData/MarketMeasureViews.aspx"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Market Data Reports
+    </header>
+    <br/>
+    <body maxitem="6">
+      <Item name="Market Data Reports" sourcehref="/Modules/MarketData/MarketMeasureReports.aspx"/>
+    </body>
+  </section>
+  </root>

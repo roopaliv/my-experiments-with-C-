@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<!-- definition of simple elements -->
+	<xs:simpleType name="pageinusetype">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="embedded"/>
+			<xs:enumeration value="custom"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="mandatoryValuetype">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+
+	<!-- definition of attributes -->
+
+
+	<!-- definition of complex elements -->
+	<xs:complexType name="embeddedtype">
+		<xs:sequence></xs:sequence>
+		<xs:attribute name="assembly" type="mandatoryValuetype" use="required"/>
+		<xs:attribute name="pageurl" type="mandatoryValuetype" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="customtype">
+		<xs:sequence></xs:sequence>
+		<xs:attribute name="pageurl" type="mandatoryValuetype" use="required"/>
+	</xs:complexType>
+
+	<xs:element name="view" >
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="embedded"  type="embeddedtype"/>
+				<xs:element name="custom"  type="customtype"/>
+			</xs:sequence>
+
+			<xs:attribute name="identifier" type="mandatoryValuetype" use="required"/>
+			<xs:attribute name="pageinuse"  type="pageinusetype" use="required"/>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- definition of root elements -->
+	<xs:element name="ViewManagement">
+		<xs:complexType>
+			<xs:sequence >
+				<xs:any processContents="lax" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

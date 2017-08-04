@@ -1,0 +1,92 @@
+﻿<root>
+  <section ignoreprivilege="true">
+    <header>
+      Position Blotter
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Position Blotter" sourcehref="Home.aspx?identifier=PositionBlotter" />
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      PnLIntegrity
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="PnL Integrity" sourcehref="Home.aspx?identifier=Operations_PnlIntegrity"/>
+    </body>
+  </section>
+  
+  <section ignoreprivilege="true">
+    <header>
+      Detailed Trade Extract Report
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Detailed Trade Extract Report" sourcehref="Home.aspx?identifier=Operations_DetailedTradeExtract"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      KnowledgeDate Reporting
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="KnowledgeDate Reporting" sourcehref="Home.aspx?identifier=Operations_PnlKnowledgeDateReport"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Facility Details
+    </header>
+    <br/>
+    <body maxitem="8">
+      <Item name="Facility Details" sourcehref="Home.aspx?identifier=Operations_BankDebtReport"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Accrual Reports
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Accrual Reports" sourcehref="Home.aspx?identifier=Operations_CDSCustomReport"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Group Claims
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Segmentation" sourcehref="Home.aspx?identifier=Operations_GroupClaimsSegmentation"/>
+      <Item name="Underlying Details" sourcehref="Home.aspx?identifier=Operations_GroupClaimsUnderlying"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+       Rebalancing Report
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Rebalancing Report" sourcehref="Home.aspx?identifier=Operations_RebalancingReport"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Custom Reports
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Custom Reports" sourcehref="/CustomReport.aspx?ModuleName=Operations"/>
+    </body>
+  </section>
+</root>

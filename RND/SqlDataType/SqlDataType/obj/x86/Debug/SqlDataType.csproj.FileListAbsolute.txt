@@ -1,0 +1,9 @@
+C:\Shared\RND\SqlDataType\SqlDataType\bin\Debug\SqlDataType.exe
+C:\Shared\RND\SqlDataType\SqlDataType\bin\Debug\SqlDataType.pdb
+C:\Shared\RND\SqlDataType\SqlDataType\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Shared\RND\SqlDataType\SqlDataType\obj\x86\Debug\SqlDataType.Properties.Resources.resources
+C:\Shared\RND\SqlDataType\SqlDataType\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Shared\RND\SqlDataType\SqlDataType\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Shared\RND\SqlDataType\SqlDataType\obj\x86\Debug\SqlDataType.exe
+C:\Shared\RND\SqlDataType\SqlDataType\obj\x86\Debug\SqlDataType.pdb
+C:\Shared\RND\SqlDataType\SqlDataType\obj\x86\Debug\SqlDataType.Form1.resources

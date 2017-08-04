@@ -1,0 +1,23 @@
+﻿<root>
+  <section ignoreprivilege="true">
+    <header>
+      IR Grid
+    </header>
+    <br/>
+    <body maxitem="2">
+      <Item name="IR Grid" sourcehref="Home.aspx?identifier=IRGrids"/>
+    </body>
+  </section>
+  <section ignoreprivilege="true">
+    <header>
+      Reports
+    </header>
+    <br/>
+    <body maxitem="6">
+      <Item name="Comparative Analysis" sourcehref="Home.aspx?identifier=IRReportViewer&amp;reportType=0"/>
+      <Item name="Comparative Analysis In Dollars" sourcehref="Home.aspx?identifier=IRReportViewer&amp;reportType=3"/>
+      <Item name="Consolidated Report FormPF" sourcehref="Home.aspx?identifier=IRReportViewer&amp;reportType=1"/>
+      <Item name="Consolidated Report AIFMD" sourcehref="Home.aspx?identifier=IRReportViewer&amp;reportType=2"/>
+    </body>
+  </section>
+</root>

@@ -1,0 +1,21 @@
+﻿<root>
+  <section ignoreprivilege="true">
+    <header>
+      Consolidated Report
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Consolidated Report" sourcehref="/StockLoan/ConsolidatedSLReport.aspx" />
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      StockLoan Reports
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="StockLoan Reports" sourcehref="/StockLoan/StockLoanReports.aspx"/>
+    </body>
+  </section>
+</root>

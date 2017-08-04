@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configs>
+  <module>
+    <pnl>
+      <config key="" filename="" assemblyname="" />
+    </pnl>
+  </module>
+  <application>
+    <dalconfig>
+      <config key="dalConfig" filename="\configfiles\DalConfig.xml" assemblyname="" />
+    </dalconfig>
+    <ETL>
+      <config key="ETL" filename="\configfiles\ETL.xml" assemblyname="" />
+    </ETL>
+    <logger>
+      <config key="loggerconfig" filename="\configfiles\LoggerConfig.xml" assemblyname="" />
+    </logger>
+    <formats>
+      <config key="formatConfig" filename="\configfiles\FormatConfig.xml" />
+    </formats>
+    <viewmanagement>
+      <config key="viewconfig" filename="\configfiles\ViewConfig.xml" assemblyname="" />
+    </viewmanagement>
+    <reportViewer>
+      <config key="RVSampleReportOne" filename="resources\ReportConfig\TestReportOne.xml" assemblyname="" />
+      <config key="RiskDashboardReport" filename="com.ivp.polaris.module.risk.configs.RiskDashboard.xml" assemblyname="PRisk" />
+      <config key="ExposureStressAnalysis" filename="com.ivp.polaris.module.risk.configs.ExposureStressAnalysis.xml" assemblyname="PRisk" />
+      <config key="YieldAnalysis" filename="com.ivp.polaris.module.risk.configs.YieldAnalysis.xml" assemblyname="PRisk" />
+      <config key="CapitalStructure" filename="com.ivp.polaris.module.risk.configs.CapitalStructure.xml" assemblyname="PRisk" />
+      <config key="InvestmentDetails" filename="com.ivp.polaris.module.risk.configs.InvestmentDetails.xml" assemblyname="PRisk" />
+      <config key="PnLDashboards" filename="Modules\PPnL\Dashboards\PnlDashboards.xml" assemblyname="" />
+      <config key="PnLDash" filename="C:\Users\rdev\Desktop\PolarisCore\PolarisLibrary\Modules\PPnL\PnLDash.xml" assemblyname="" />
+    </reportViewer>
+    <usermanagement>
+      <config key="usermanagementconfig" filename="\configfiles\UserManagementConfig.xml" assemblyname="" />
+    </usermanagement>
+    <mailnotifier>
+      <config key="mailnotifier" filename="\configfiles\MailNotifier.xml" />
+    </mailnotifier>
+    <commonSetUp>
+      <config key="CommonSetUp" filename="\configfiles\CommonSetUp.xml" />
+    </commonSetUp>
+  </application>
+</configs>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DBSettings>
+  <connections>
+    <connection>
+      <id>radDB</id>
+      <connstring>
+        Data Source=192.168.0.62\qa05a;Initial Catalog=IVPRAD;User ID=sa;password=sa@123;Min Pool Size=10;Max Pool Size=1000;Connect Timeout=1000;Application Name=RAD;
+      </connstring>
+    </connection>
+    <connection>
+      <id>RefMasterDB</id>
+      <connstring>Data Source=192.168.0.63\loc05e;Initial Catalog=ivprefmastervendor;User ID=sa;password=sa@123;Min Pool Size=10;Max Pool Size=1000;Connect Timeout=1000;Application Name=Polaris;</connstring>
+    </connection>
+    <connection>
+      <id>polarisDevDB</id>
+      <connstring>Data Source=WS-ASJAIN\DEV;Initial Catalog=PolarisCoreDemo;User ID=sa;password=sa@123;Min Pool Size=10;Max Pool Size=1000;Connect Timeout=1000;Application Name=Polaris;</connstring>
+    </connection>
+  </connections>
+  <configsettings>
+    <minpool>0</minpool>
+    <maxpool>50</maxpool>
+    <idletimeout>600</idletimeout>
+    <timeinterval>10</timeinterval>
+  </configsettings>
+</DBSettings>

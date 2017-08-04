@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mailnotifier>
+    <servername>smtp.gmail.com</servername>
+    <username>rad@ivp.in</username>
+    <password>ivpindia</password>
+    <port>587</port>
+    <enablessl>true</enablessl>
+</mailnotifier>

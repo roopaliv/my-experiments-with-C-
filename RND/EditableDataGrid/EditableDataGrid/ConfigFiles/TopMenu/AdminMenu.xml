@@ -1,0 +1,46 @@
+﻿<root>
+  <section ignoreprivilege="true">
+    <header realName="ReferenceDataManagement">Reference Data Management</header>
+    <br />
+    <body maxitem="15">
+      <Item name="Reference Data" sourcehref="/Modules/PAdmin/RefMasterData.aspx" />
+      <Item name="Asset Class" sourcehref="/Modules/PAdmin/AssetClassEntry.aspx" />
+      <Item name="Broker" sourcehref="/Modules/PAdmin/BrokerEntry.aspx" />
+      <Item name="Currency" sourcehref="/Modules/PAdmin/CurrencyEntry.aspx" />
+      <Item name="CounterParty Entry" sourcehref="/Modules/PAdmin/CounterPartyEntry.aspx" />
+      <Item name="Country" sourcehref="/Modules/PAdmin/CountryEntry.aspx" />
+      <Item name="Form Funds" sourcehref="/Modules/PAdmin/FundEntry.aspx" />
+      <Item name="Instrument Type" sourcehref="/Modules/PAdmin/InstrumentType.aspx" />
+      <Item name="Region" sourcehref="/Modules/PAdmin/RegionEntry.aspx" />
+      <Item name="Sector" sourcehref="/Modules/PAdmin/SectorEntry.aspx" />
+      <Item name="Industry" sourcehref="/Modules/PAdmin/IndustryEntry.aspx" />
+      <Item name="Mapping" sourcehref="/Modules/PAdmin/Mapping.aspx" />
+      <Item name="Transaction Type" sourcehref="/Modules/PAdmin/TransactionType.aspx" />
+      <Item name="Security Strategy Mapping" sourcehref="/Modules/PAdmin/SecurityStrategyMapping.aspx" />
+      <Item name="Report Configuration" sourcehref="/Modules/PAdmin/ReportConfigurion.aspx" />
+    </body>
+  </section>
+  <section ignoreprivilege="true">
+    <header realName="TaskManagement"  >
+      Task Management
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Batch Configuration" sourcehref="Home.aspx?identifier=TaskManagement" realName="TaskManagement" />
+      <Item name="Task Configuration" sourcehref="Home.aspx?identifier=TaskConfiguration" realName="TaskConfiguration" />
+      <Item name="Task Status" sourcehref="Home.aspx?identifier=TaskStatus" realName="TaskStatus"/>
+    </body>
+  </section>
+  
+  <section ignoreprivilege="true">
+    <header realName="UserManagement"  >
+      User Management
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="User Management" sourcehref="Home.aspx?identifier=UserManagement" />
+      <Item name="Group Management" sourcehref="Home.aspx?identifier=GroupManagement" />
+      <Item name="Role Management" sourcehref="Home.aspx?identifier=RoleManagement" />
+    </body>
+  </section>
+</root>

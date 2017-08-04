@@ -1,0 +1,111 @@
+﻿<root>
+  <section ignoreprivilege="true">
+    <header>
+      Limits n Alerts
+    </header>
+    <br/>
+    <body maxitem="8">
+      <Item name="Configure Limit Groups" sourcehref="Home.aspx?identifier=AlertGroups" />
+      <Item name="Alerts DashBoard" sourcehref="Home.aspx?identifier=LimitsDashboard"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Short Locate Info
+    </header>
+    <br/>
+    <body maxitem="8">
+      <Item name="Short Locate Info" sourcehref="Home.aspx?identifier=ShortLocateInfo"/>
+    </body>
+  </section>
+  
+  <section ignoreprivilege="true">
+    <header>
+      Restricted List
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Configure List" sourcehref="Home.aspx?identifier=RestrictedList"/>
+      <Item name="Exception Report" sourcehref="Home.aspx?identifier=RestrictedListArchive"/>
+    </body>
+  </section>
+  
+  <section ignoreprivilege="true">
+    <header>
+      Ownership Analysis
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Country Threshold Config" sourcehref="Home.aspx?identifier=ThresholdLimit"/>
+      <Item name="Stock Equivalent Holding Report" sourcehref="PCompliance/ReportMain.aspx?id=Compliance&amp;type=DetailedDeskPosition"/>
+      <Item name="Concentration Dashboard" sourcehref="Home.aspx?identifier=ConcentrationDashboard"/>
+      <Item name="Limit Exception Dashboard" sourcehref="Home.aspx?identifier=LimitExceptionDashboard"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      CLO
+    </header>
+    <br/>
+    <body maxitem="20">
+      <Item name="US CLO : Issuer Concentration Report" sourcehref="Home.aspx?identifier=CLOCompliance&amp;Id=IssuerConcentration"/>
+      <Item name="US CLO : Industry Concentration Report" sourcehref="Home.aspx?identifier=CLOCompliance&amp;Id=IndustryConcentration"/>
+      <Item name="US CLO : Collateral Quality" sourcehref="Home.aspx?identifier=CLOCompliance&amp;Id=CollateralQuality"/>
+      <Item name="US CLO : Compliance Report" sourcehref="Home.aspx?identifier=CLOCompliance&amp;Id=ComplianceReport"/>
+      <Item name="US CLO : Coverage Report" sourcehref="Home.aspx?identifier=CLOCompliance&amp;Id=CoverageReport"/>
+      <Item name="US CLO : Interest Coverage Report" sourcehref="Home.aspx?identifier=CLOCompliance&amp;Id=InterestCoverageReport"/>
+      <Item name="US CLO : OverCollateralization Ratio Report" sourcehref="Home.aspx?identifier=CLOCompliance&amp;Id=USOverCollateralizationRatioReport"/>
+      <Item name="US CLO : SP Holdings In US CLOs" sourcehref="Home.aspx?identifier=CLOCompliance&amp;Id=SPHoldingsInUSCLOs"/>
+      <Item name="UK CLO : Portfolio Composition Report" sourcehref="Home.aspx?identifier=CLOCompliance&amp;Id=IssuerConcentrationEURO"/>
+      <Item name="UK CLO : Portfolio Profile Report" sourcehref="Home.aspx?identifier=CLOCompliance&amp;Id=PortfolioProfile"/>
+      <Item name="UK CLO : Par Value Report" sourcehref="Home.aspx?identifier=CLOCompliance&amp;Id=ParValue"/>
+      <Item name="UK CLO : Euro Interest Coverage Report" sourcehref="Home.aspx?identifier=CLOCompliance&amp;Id=EuroInterestCoverage"/>
+      <Item name="UK CLO : Collateral Quality Report Euro" sourcehref="Home.aspx?identifier=CLOCompliance&amp;Id=CollateralQualityEuro"/>
+      <Item name="UK CLO : Euro Par Value Report" sourcehref="Home.aspx?identifier=CLOCompliance&amp;Id=EUROParValueOnePagerReport"/>
+      <Item name="Configure Attribute Value" sourcehref="Home.aspx?identifier=AttributeValue"/>
+      <Item name="Refresh Compliance Data" sourcehref="Home.aspx?identifier=RefreshComplianceData"/>
+      <Item name="Compliance Base Data" sourcehref="Home.aspx?identifier=ComplianceDenorm"/>
+      <Item name="Consolidated Compliance Report" sourcehref="Home.aspx?identifier=CLOCompliance&amp;Id=ConsolidatedComplianceReport"/>
+      <Item name="Hypothetical Trade" sourcehref="Home.aspx?identifier=HypotheticalReport"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Add-On Reports
+    </header>
+    <br/>
+    <body maxitem="8">
+      <Item name="1%UK" sourcehref="PCompliance/ReportMain.aspx?id=Compliance&amp;type=UKException"/>
+      <Item name="2.5% RIC" sourcehref="PCompliance/ReportMain.aspx?id=Compliance&amp;type=USException"/>
+      <Item name="$ 50MM FirmWide" sourcehref="PCompliance/ReportMain.aspx?id=Compliance&amp;type=FirmWide50MMConcentration"/>
+      <Item name="Large Short Exposure (%)" sourcehref="PCompliance/ReportMain.aspx?id=Compliance&amp;type=LargeShortExposureByPercentage"/>
+      <Item name="Large Short Exposure ($)" sourcehref="PCompliance/ReportMain.aspx?id=Compliance&amp;type=LargeShortExposureByPrice"/>
+      <Item name="4% By Account" sourcehref="PCompliance/ReportMain.aspx?id=Compliance&amp;type=ConcentrationByAccount"/>
+      <Item name="Firm Wide" sourcehref="PCompliance/ReportMain.aspx?id=Compliance&amp;type=FirmWideConcentration"/>
+      <Item name="Detailed Concentration Report" sourcehref="PCompliance/ReportMain.aspx?id=Compliance&amp;type=DetailedConcentration"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Best Execution Report
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Best Execution Report" sourcehref="Home.aspx?identifier=BestExecutionReport"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Custom Reports
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Custom Reports" sourcehref="/CustomReport.aspx?ModuleName=Compliance"/>
+    </body>
+  </section>
+</root>

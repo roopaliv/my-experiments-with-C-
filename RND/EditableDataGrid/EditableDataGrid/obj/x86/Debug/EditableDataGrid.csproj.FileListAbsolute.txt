@@ -1,0 +1,11 @@
+C:\Shared\RND\EditableDataGrid\EditableDataGrid\bin\Debug\EditableDataGrid.exe
+C:\Shared\RND\EditableDataGrid\EditableDataGrid\bin\Debug\EditableDataGrid.pdb
+C:\Shared\RND\EditableDataGrid\EditableDataGrid\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Shared\RND\EditableDataGrid\EditableDataGrid\obj\x86\Debug\EditableDataGrid.Form1.resources
+C:\Shared\RND\EditableDataGrid\EditableDataGrid\obj\x86\Debug\EditableDataGrid.Properties.Resources.resources
+C:\Shared\RND\EditableDataGrid\EditableDataGrid\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Shared\RND\EditableDataGrid\EditableDataGrid\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Shared\RND\EditableDataGrid\EditableDataGrid\obj\x86\Debug\EditableDataGrid.exe
+C:\Shared\RND\EditableDataGrid\EditableDataGrid\obj\x86\Debug\EditableDataGrid.pdb
+C:\Shared\RND\EditableDataGrid\EditableDataGrid\bin\Debug\PRisk.dll
+C:\Shared\RND\EditableDataGrid\EditableDataGrid\bin\Debug\PRisk.pdb

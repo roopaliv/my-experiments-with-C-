@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ViewManagement defaultpageIdentifier="SamplePage">
+  <Sample>
+    <view identifier="SamplePage" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.module.admin.TaskManagement.SamplePage.aspx" assembly="PAdmin">
+        <params>
+          <blah>blah</blah>
+        </params>
+      </embedded>
+      <custom pageurl="Modules/Sample/SamplePage.aspx" />
+    </view>
+    <view identifier="SampleReportViewerPage" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.ui.Modules.Sample.SampleReportViewer.aspx" assembly="PolarisUI" />
+      <custom pageurl="" />
+    </view>
+  </Sample>
+  <PAdmin>
+    <view identifier="TaskManagement" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.module.admin.TaskManagement.TaskManager.aspx" assembly="PAdmin" />
+      <custom pageurl="Modules/TaskManagement/TaskManager.aspx" />
+    </view>
+    <view identifier="TaskConfiguration" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.module.admin.TaskManagement.TaskConfiguration.aspx" assembly="PAdmin" />
+      <custom pageurl="Modules/TaskManagement/TaskConfiguration.aspx" />
+    </view>
+    <view identifier="TaskStatus" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.module.admin.TaskManagement.TaskStatus.aspx" assembly="PAdmin" />
+      <custom pageurl="Modules/TaskManagement/TaskStatus.aspx" />
+    </view>
+    <view identifier="UserManagement" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.module.admin.UserManagement.UserManagement.aspx" assembly="PAdmin" />
+      <custom pageurl="Modules/UserManagement/UserManagement.aspx" />
+    </view>
+    <view identifier="GroupManagement" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.module.admin.UserManagement.GroupManagement.aspx" assembly="PAdmin" />
+      <custom pageurl="Modules/UserManagement/GroupManagement.aspx" />
+    </view>
+    <view identifier="RoleManagement" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.module.admin.UserManagement.RoleManagement.aspx" assembly="PAdmin" />
+      <custom pageurl="Modules/UserManagement/RoleManagement.aspx" />
+    </view>
+    <view identifier="RefMasterData" pageinuse="custom">
+      <custom pageurl="Modules/PAdmin/RefMasterData.aspx" />
+    </view>
+    <view identifier="AssetClassEntry" pageinuse="custom">
+      <custom pageurl="Modules/PAdmin/AssetClassEntry.aspx" />
+    </view>
+    <view identifier="BrokerEntry" pageinuse="custom">
+      <custom pageurl="Modules/PAdmin/BrokerEntry.aspx" />
+    </view>
+    <view identifier="CurrencyEntry" pageinuse="custom">
+      <custom pageurl="Modules/PAdmin/CurrencyEntry.aspx" />
+    </view>
+    <view identifier="CounterPartyEntry" pageinuse="custom">
+      <custom pageurl="Modules/PAdmin/CounterPartyEntry.aspx" />
+    </view>
+    <view identifier="CountryEntry" pageinuse="custom">
+      <custom pageurl="Modules/PAdmin/CountryEntry.aspx" />
+    </view>
+    <view identifier="FundEntry" pageinuse="custom">
+      <custom pageurl="Modules/PAdmin/FundEntry.aspx" />
+    </view>
+    <view identifier="InstrumentType" pageinuse="custom">
+      <custom pageurl="Modules/PAdmin/InstrumentType.aspx" />
+    </view>
+    <view identifier="RegionEntry" pageinuse="custom">
+      <custom pageurl="Modules/PAdmin/RegionEntry.aspx" />
+    </view>
+    <view identifier="SectorEntry" pageinuse="custom">
+      <custom pageurl="Modules/PAdmin/SectorEntry.aspx" />
+    </view>
+    <view identifier="IndustryEntry" pageinuse="custom">
+      <custom pageurl="Modules/PAdmin/IndustryEntry.aspx" />
+    </view>
+    <view identifier="Mapping" pageinuse="custom">
+      <custom pageurl="Modules/PAdmin/Mapping.aspx" />
+    </view>
+    <view identifier="TransactionType" pageinuse="custom">
+      <custom pageurl="Modules/PAdmin/TransactionType.aspx" />
+    </view>
+    <view identifier="SecurityStrategyMapping" pageinuse="custom">
+      <custom pageurl="Modules/PAdmin/SecurityStrategyMapping.aspx" />
+    </view>
+    <view identifier="ReportConfiguration" pageinuse="custom">
+      <custom pageurl="Modules/PAdmin/ReportConfigurion.aspx" />
+    </view>
+  </PAdmin>
+  <PRefMaster>
+    <view identifier="RefMasterPage" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.module.refmaster.RefMasterPage.aspx" assembly="PRefMaster" />
+      <custom pageurl="Modules/PRefMaster/RefMasterPage.aspx" />
+    </view>
+  </PRefMaster>
+  <PnL>
+    <view identifier="PnlGridViewer" pageinuse="custom">
+      <embedded pageurl="com.ivp.polaris.modules.pnl.PnlGridViewer.aspx" assembly="PPnL">
+        <params>
+          <startdate>T_Plus_N{11/17/2009[MM/dd/yyyy]}:0</startdate>
+          <enddate>T_Plus_N{11/17/2009[MM/dd/yyyy]}:1</enddate>
+        </params>
+      </embedded>
+      <custom pageurl="Modules/PPnl/PnlGridViewer.aspx">
+        <params>
+          <startdate>T_Plus_N{11/17/2009[MM/dd/yyyy]}:0</startdate>
+          <enddate>T_Plus_N{11/17/2009[MM/dd/yyyy]}:1</enddate>
+        </params>
+      </custom>
+    </view>
+    <view identifier="PnlDashBoards" pageinuse="embedded">
+      <!--<embedded pageurl="com.ivp.polaris.modules.pnl.PnlDashBoards.aspx" assembly="PPnL" />-->
+      <embedded pageurl="com.ivp.polaris.core.ui.controls.reportviewer.ReportViewerPage.aspx?reportConfigKey=PnLDashboards" assembly="PReportViewer" />
+    </view>
+    <view identifier="PnlProfitability" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.pnl.PnlProfitability.aspx" assembly="PPnL" />
+    </view>
+    <view identifier="Contribution Analysis" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.pnl.PnLContributionAnalysis.aspx" assembly="PPnL" />
+    </view>
+    <view identifier="PnL Positions" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.pnl.PnLPositions.aspx" assembly="PPnL" />
+    </view>
+    <view identifier="PnL Distribution" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.pnl.PnLDistribution.aspx" assembly="PPnL" />
+    </view>
+    <view identifier="Top5PnL Contributor" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.pnl.Top5PnLContributors.aspx" assembly="PPnL" />
+    </view>
+    <view identifier="PnL Analysis" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.pnl.PnLFormattedReports.aspx" assembly="PPnL" />
+    </view>
+    <view identifier="PnL Analysis Strategy" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.pnl.PnLFormattedReports.aspx" assembly="PPnL" />
+    </view>
+    <view identifier="PnLDash" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.core.ui.controls.reportviewer.ReportViewerPage.aspx?reportConfigKey=PnLDash" assembly="PReportViewer" />
+    </view>
+  </PnL>
+  <performance>
+    <view identifier="TimeWeightedAllocationReturns" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.TimeWeightedAllocationReturns.aspx" assembly="PPerformance">
+        <params>
+          <StartDate>T_Plus_N{10/04/2009[MM/dd/yyyy]}:0</StartDate>
+          <EndDate>T_Plus_N{11/03/2009[MM/dd/yyyy]}:0</EndDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="CustomAnalysis" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.CustomAnalysis.aspx" assembly="PPerformance">
+        <params>
+          <StartDate>T_Plus_N{01/02/2008[MM/dd/yyyy]}:0</StartDate>
+          <EndDate>T_Plus_N:0</EndDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="CumulativeTimeSeries" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.CumulativeTimeSeries.aspx" assembly="PPerformance" />
+    </view>
+    <view identifier="MatrixReport" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.MatrixReport.aspx" assembly="PPerformance">
+        <params>
+          <StartDate>T_Plus_N{11/03/2009[MM/dd/yyyy]}:0</StartDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="Benchmark" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.Benchmark.aspx" assembly="PPerformance" />
+    </view>
+    <view identifier="CaptureRatios" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.CaptureRatios.aspx" assembly="PPerformance">
+        <params>
+          <StartDate>T_Plus_N{03/01/2010[MM/dd/yyyy]}:0</StartDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="CumulativeReturns" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.CumulativeReturns.aspx" assembly="PPerformance">
+        <params>
+          <StartDate>T_Plus_N{03/01/2010[MM/dd/yyyy]}:0</StartDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="GainLossDeviations" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.GainLossDeviations.aspx" assembly="PPerformance">
+        <params>
+          <StartDate>T_Plus_N{03/01/2010[MM/dd/yyyy]}:0</StartDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="NumberRatios" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.NumberRatios.aspx" assembly="PPerformance">
+        <params>
+          <StartDate>T_Plus_N{03/01/2010[MM/dd/yyyy]}:0</StartDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="BattingAverages" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.BattingAverages.aspx" assembly="PPerformance">
+        <params>
+          <AsOfDate>T_Plus_N{03/01/2010[MM/dd/yyyy]}:0</AsOfDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="PortfolioDriverAnalysis" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.PortfolioDriverAnalysis.aspx" assembly="PPerformance">
+        <params>
+          <AsOfDate>T_Plus_N{11/03/2009[MM/dd/yyyy]}:0</AsOfDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="PerformanceHierarchy" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.PerformanceHierarchy.aspx" assembly="PPerformance" />
+    </view>
+    <view identifier="PerformanceReport" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.PerformanceReport.aspx" assembly="PPerformance">
+        <params>
+          <AsOfDate>T_Plus_N{10/04/2009[MM/dd/yyyy]}:0</AsOfDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="ReturnOnCapital" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.ReturnOnCapital.aspx" assembly="PPerformance">
+        <params>
+          <StartDate>T_Plus_N{09/06/2009[MM/dd/yyyy]}:0</StartDate>
+          <EndDate>T_Plus_N{03/31/2012[MM/dd/yyyy]}:0</EndDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="AverageHoldingPeriod" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.AverageHoldingPeriod.aspx" assembly="PPerformance">
+        <params>
+          <AsOfDate>T_Plus_N{11/26/2009[MM/dd/yyyy]}:0</AsOfDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="SecurityHoldingPeriod" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.SecurityHoldingPeriod.aspx" assembly="PPerformance">
+        <params>
+          <AsOfDate>T_Plus_N{03/12/2010[MM/dd/yyyy]}:0</AsOfDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="ReturnOnSector" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.ReturnOnSector.aspx" assembly="PPerformance">
+        <params>
+          <StartDate>T_Plus_N{06/25/2010[MM/dd/yyyy]}:0</StartDate>
+          <EndDate>T_Plus_N{07/20/2010[MM/dd/yyyy]}:0</EndDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="SectorAnalysis" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.SectorAnalysis.aspx" assembly="PPerformance">
+        <params>
+          <StartDate>T_Plus_N:0</StartDate>
+          <EndDate>T_Plus_N:0</EndDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="VintageYearAnalysis" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.VintageYearAnalysis.aspx" assembly="PPerformance">
+        <params>
+          <AsOfDate>T_Plus_N:0</AsOfDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="TWRRAllIntervals" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.TWRRAllIntervals.aspx" assembly="PPerformance">
+        <params>
+          <AsOfDate>T_Plus_N{03/01/2010[MM/dd/yyyy]}:0</AsOfDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="TopPnLPositions" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.TopPnLPositions.aspx" assembly="PPerformance">
+        <params>
+          <StartDate>T_Plus_N:0</StartDate>
+          <EndDate>T_Plus_N:0</EndDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="TraditionalTurnover" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.TraditionalTurnover.aspx" assembly="PPerformance">
+        <params>
+          <StartDate>T_Plus_N{09/01/2009[MM/dd/yyyy]}:0</StartDate>
+          <EndDate>T_Plus_N{11/30/2009[MM/dd/yyyy]}:0</EndDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="BenchmarkHierarchyExceptionMapping" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.performance.UI.BenchmarkHierarchyExceptionMapping.aspx" assembly="PPerformance" />
+    </view>
+  </performance>
+  <Operations>
+    <view identifier="Operations_PnlIntegrity" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.operations.UI.PnLIntegrity.aspx" assembly="POperations">
+        <params>
+          <AsOfDate>T_Plus_N{03/12/2010[MM/dd/yyyy]}:0</AsOfDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="PositionBlotter" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.operations.UI.PositionBlotter.aspx" assembly="POperations">
+        <params>
+          <PeriodEndDate>T_Plus_N{03/12/2010[MM/dd/yyyy]}:0</PeriodEndDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="Operations_PnlKnowledgeDateReport" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.operations.UI.PnlKnowledgeDateReport.aspx" assembly="POperations">
+        <params>
+          <AsOfDate>T_Plus_N{11/03/2009[MM/dd/yyyy]}:0</AsOfDate>
+          <KnowledgeDate>T_Plus_N{02/11/2011[MM/dd/yyyy]}:0</KnowledgeDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="Operations_BankDebtReport" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.operations.UI.BankDebtReport.aspx" assembly="POperations" />
+    </view>
+    <view identifier="Operations_CDSCustomReport" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.operations.UI.CDSCustomReport.aspx" assembly="POperations">
+        <params>
+          <AsOfDate>T_Plus_N{11/03/2009[MM/dd/yyyy]}:0</AsOfDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="Operations_RebalancingReport" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.operations.UI.RebalancingReport.aspx" assembly="POperations" />
+    </view>
+    <view identifier="Operations_GroupClaimsUnderlying" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.operations.UI.GroupClaimsUnderlying.aspx" assembly="POperations" />
+    </view>
+    <view identifier="Operations_GroupClaimsSegmentation" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.operations.UI.GroupClaimsSegmentation.aspx" assembly="POperations">
+        <params>
+          <AsOfDate>T_Plus_N{05/23/2011[MM/dd/yyyy]}:0</AsOfDate>
+        </params>
+      </embedded>
+    </view>
+    <view identifier="Operations_DetailedTradeExtract" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.operations.UI.DetailedTradeExtract.aspx" assembly="POperations">
+        <params>
+          <FromDate>T_Plus_N{12/03/2010[MM/dd/yyyy]}:0</FromDate>
+          <ToDate>T_Plus_N{11/03/2009[MM/dd/yyyy]}:0</ToDate>
+        </params>
+      </embedded>
+    </view>
+  </Operations>
+  <PReportViewer>
+    <view identifier="ReportViewerSample" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.core.ui.controls.reportviewer.ReportViewerPage.aspx?reportConfigKey=RVSampleReportOne" assembly="PReportViewer" />
+      <custom pageurl="" />
+    </view>
+    <view identifier="AnalystBreakdown" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.core.ui.controls.reportviewer.ReportViewerPage.aspx?reportConfigKey=AnalystBreakdownReport" assembly="PReportViewer" />
+      <custom pageurl="" />
+    </view>
+    <view identifier="AssetClassBreakdown" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.core.ui.controls.reportviewer.ReportViewerPage.aspx?reportConfigKey=AssetClassBreakdownReport" assembly="PReportViewer" />
+      <custom pageurl="" />
+    </view>
+    <view identifier="CommitmentAndLostDealSummary" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.core.ui.controls.reportviewer.ReportViewerPage.aspx?reportConfigKey=CommitmentAndLostDealSummaryReport" assembly="PReportViewer" />
+      <custom pageurl="" />
+    </view>
+    <view identifier="DealSummary" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.core.ui.controls.reportviewer.ReportViewerPage.aspx?reportConfigKey=DealSummaryReport" assembly="PReportViewer" />
+      <custom pageurl="" />
+    </view>
+    <view identifier="OfficeBreakdown" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.core.ui.controls.reportviewer.ReportViewerPage.aspx?reportConfigKey=OfficeBreakdownReport" assembly="PReportViewer" />
+      <custom pageurl="" />
+    </view>
+    <view identifier="PnLSummary" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.core.ui.controls.reportviewer.ReportViewerPage.aspx?reportConfigKey=PnLSummaryReport" assembly="PReportViewer" />
+      <custom pageurl="" />
+    </view>
+    <view identifier="PrimaryAnalyst" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.core.ui.controls.reportviewer.ReportViewerPage.aspx?reportConfigKey=PrimaryAnalystReport" assembly="PReportViewer" />
+      <custom pageurl="" />
+    </view>
+    <view identifier="Top5" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.core.ui.controls.reportviewer.ReportViewerPage.aspx?reportConfigKey=Top5AnalysisReport" assembly="PReportViewer" />
+      <custom pageurl="" />
+    </view>
+    <view identifier="VintageYear" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.core.ui.controls.reportviewer.ReportViewerPage.aspx?reportConfigKey=VintageYearReport" assembly="PReportViewer" />
+      <custom pageurl="" />
+    </view>
+  </PReportViewer>
+  <PIR>
+    <view identifier="IRGrids" pageinuse="custom">
+      <custom pageurl="Modules/IR/IRGrids.aspx">
+        <params>
+          <asOfDate>T_Plus_N{08/20/2012[MM/dd/yyyy]}:0</asOfDate>
+          <fromdate>T_Plus_N{08/15/2012[MM/dd/yyyy]}:0</fromdate>
+          <todate>T_Plus_N{08/20/2012[MM/dd/yyyy]}:0</todate>
+        </params>
+      </custom>
+    </view>
+    <view identifier="IRReportViewer" pageinuse="custom">
+      <custom pageurl="Modules/IR/IRReportViewer.aspx">
+        <params>
+          <asOfDate>T_Plus_N{08/20/2012[MM/dd/yyyy]}:0</asOfDate>
+        </params>
+      </custom>
+    </view>
+  </PIR>
+  <PCompliance>
+    <view identifier="AlertGroups" pageinuse="custom">
+      <custom pageurl="PCompliance/AlertGroups.aspx"></custom>
+    </view>
+    <view identifier="CreateAlertRule" pageinuse="custom">
+      <custom pageurl="PCompliance/CreateAlertRule.aspx"></custom>
+    </view>
+    <view identifier="LimitsDashboard" pageinuse="custom">
+      <custom pageurl="PCompliance/LimitsDashboard.aspx">
+        <params>
+          <AsOfDateLimitsDashBoard>T_Plus_N{09/06/2009[MM/dd/yyyy]}:0</AsOfDateLimitsDashBoard>
+        </params>
+      </custom>
+    </view>
+    <view identifier="ShortLocateInfo" pageinuse="custom">
+      <custom pageurl="PCompliance/ShortLocateInfo.aspx">
+        <params>
+          <FromDate>T_Plus_N{09/02/2009[MM/dd/yyyy]}:0</FromDate>
+        </params>
+      </custom>
+    </view>
+    <view identifier="RestrictedList" pageinuse="custom">
+      <custom pageurl="PCompliance/RestrictedList.aspx"></custom>
+    </view>
+    <view identifier="RestrictedListArchive" pageinuse="custom">
+      <custom pageurl="PCompliance/RestrictedListArchive.aspx">
+        <params>
+          <FromDate>T_Plus_N{06/08/2011[MM/dd/yyyy]}:0</FromDate>
+          <ToDate>T_Plus_N{08/06/2012[MM/dd/yyyy]}:0</ToDate>
+        </params>
+      </custom>
+    </view>
+    <view identifier="ThresholdLimit" pageinuse="custom">
+      <custom pageurl="PCompliance/ThresholdLimit.aspx"></custom>
+    </view>
+    <view identifier="ConcentrationDashboard" pageinuse="custom">
+      <custom pageurl="PCompliance/ConcentrationDashboard.aspx"></custom>
+    </view>
+    <view identifier="LimitExceptionDashboard" pageinuse="custom">
+      <custom pageurl="PCompliance/LimitExceptionDashboard.aspx"></custom>
+    </view>
+    <view identifier="CLOCompliance" pageinuse="custom">
+      <custom pageurl="PCompliance/CLOCompliance.aspx">
+        <params>
+          <calAsOfDate>T_Plus_N{09/06/2009[MM/dd/yyyy]}:0</calAsOfDate>
+        </params>
+      </custom>
+    </view>
+    <view identifier="AttributeValue" pageinuse="custom">
+      <custom pageurl="PCompliance/AttributeValue.aspx"></custom>
+    </view>
+    <view identifier="RefreshComplianceData" pageinuse="custom">
+      <custom pageurl="PCompliance/RefreshComplianceData.aspx"></custom>
+    </view>
+    <view identifier="ComplianceDenorm" pageinuse="custom">
+      <custom pageurl="PCompliance/ComplianceDenorm.aspx">
+        <params>
+          <AsOfDateComplianceDenorm>T_Plus_N{09/06/2009[MM/dd/yyyy]}:0</AsOfDateComplianceDenorm>
+        </params>
+      </custom>
+    </view>
+    <view identifier="HypotheticalReport" pageinuse="custom">
+      <custom pageurl="PCompliance/HypotheticalReport.aspx"></custom>
+    </view>
+    <view identifier="HypotheticalTrade" pageinuse="custom">
+      <custom pageurl="PCompliance/HypotheticalTrade.aspx"></custom>
+    </view>
+    <view identifier="HypComplianceResult" pageinuse="custom">
+      <custom pageurl="PCompliance/HypComplianceResult.aspx">
+        <params>
+          <FromDate>T_Plus_N{09/06/2009[MM/dd/yyyy]}:0</FromDate>
+        </params>
+      </custom>
+    </view>
+    <view identifier="BestExecutionReport" pageinuse="custom">
+      <custom pageurl="PCompliance/BestExecutionReport.aspx">
+        <params>
+          <TradeFromDateDataSearch>T_Plus_N{06/08/2009[MM/dd/yyyy]}:0</TradeFromDateDataSearch>
+          <TradeToDateDataSearch>T_Plus_N{09/06/2012[MM/dd/yyyy]}:0</TradeToDateDataSearch>
+        </params>
+      </custom>
+    </view>
+  </PCompliance>
+  <PExposure>
+    <view identifier="RiskCapitalStructure" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.exposure.UI.RiskCapitalStructure.aspx" assembly="PExposure" />
+      <custom pageurl="" />
+    </view>
+    <view identifier="IssuerExposure" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.exposure.UI.IssuerExposure.aspx" assembly="PExposure" />
+    </view>
+    <view identifier="PositionSummary" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.exposure.UI.PositionSummary.aspx" assembly="PExposure" />
+    </view>
+    <view identifier="Top10Exposures" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.exposure.UI.Top10Exposures.aspx" assembly="PExposure" />
+    </view>
+    <view identifier="OpsPositionSummaryExposure" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.exposure.UI.OpsPositionSummaryExposure.aspx" assembly="PExposure" />
+    </view>
+    <view identifier="ExposureMain" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.exposure.UI.ExposureMain.aspx" assembly="PExposure" />
+    </view>
+    <view identifier="PositionSummaryExposure" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.exposure.UI.PositionSummaryExposure.aspx" assembly="PExposure" />
+    </view>
+    <view identifier="TopExposure" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.modules.exposure.UI.TopExposure.aspx" assembly="PExposure" />
+    </view>
+  </PExposure>
+  <PRisk>
+    <view identifier="RiskDashboardReport" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.core.ui.controls.reportviewer.ReportViewerPage.aspx?reportConfigKey=RiskDashboardReport" assembly="PReportViewer" />
+    </view>
+    <view identifier="ExposureStressAnalysis" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.core.ui.controls.reportviewer.ReportViewerPage.aspx?reportConfigKey=ExposureStressAnalysis" assembly="PReportViewer" />
+    </view>
+    <view identifier="CapitalStructure" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.core.ui.controls.reportviewer.ReportViewerPage.aspx?reportConfigKey=CapitalStructure" assembly="PReportViewer" />
+    </view>
+    <view identifier="YieldAnalysis" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.core.ui.controls.reportviewer.ReportViewerPage.aspx?reportConfigKey=YieldAnalysis" assembly="PReportViewer" />
+    </view>
+    <view identifier="InvestmentDetails" pageinuse="embedded">
+      <embedded pageurl="com.ivp.polaris.core.ui.controls.reportviewer.ReportViewerPage.aspx?reportConfigKey=InvestmentDetails" assembly="PReportViewer" />
+    </view>
+  </PRisk>
+  <PTreasuryFinance>
+    <view identifier="CapitalAllocation" pageinuse="custom">
+      <custom pageurl="Modules/PTreasuryFinance/ConfigureFundCapital.aspx">
+        <params>
+          <AsOfDate>T_Plus_N{04/10/2010[MM/dd/yyyy]}:0</AsOfDate>
+        </params>
+      </custom>
+    </view>
+    <view identifier="SettlementDayCashReports" pageinuse="custom">
+      <custom pageurl="Modules/PTreasuryFinance/SettlementDayCashSummary.aspx">
+        <params>
+          <TradeDate>T_Plus_N{03/26/2010[MM/dd/yyyy]}:0</TradeDate>
+        </params>
+      </custom>
+    </view>
+    <view identifier="CashBalanceSummary" pageinuse="custom">
+      <custom pageurl="Modules/PTreasuryFinance/CashBalanceSummary.aspx">
+        <params>
+          <AsOfDate>T_Plus_N{04/09/2010[MM/dd/yyyy]}:0</AsOfDate>
+        </params>
+      </custom>
+    </view>
+    <view identifier="MarginFormattedReports" pageinuse="custom">
+      <custom pageurl="Modules/PTreasuryFinance/MarginFormattedReports.aspx" />
+    </view>
+    <view identifier="MarginTrendingReport" pageinuse="custom">
+      <custom pageurl="Modules/PTreasuryFinance/MarginTrendingReport.aspx">
+        <params>
+          <AsOfDate>T_Plus_N{08/06/2010[MM/dd/yyyy]}:0</AsOfDate>
+        </params>
+      </custom>
+    </view>
+    <view identifier="BrokerFee" pageinuse="custom">
+      <custom pageurl="Modules/PTreasuryFinance/BrokerFee.aspx">
+        <params>
+          <AsOfDate>T_Plus_N{03/29/2010[MM/dd/yyyy]}:0</AsOfDate>
+        </params>
+      </custom>
+    </view>
+    <view identifier="WireManager" pageinuse="custom">
+      <custom pageurl="Modules/PTreasuryFinance/CashMain.aspx" />
+    </view>
+    <view identifier="EquityFinanceReports" pageinuse="custom">
+      <custom pageurl="Modules/PTreasuryFinance/Reports.aspx">
+        <params>
+          <startdate>T_Plus_N{09/03/2009[MM/dd/yyyy]}:0</startdate>
+          <enddate>T_Plus_N{09/03/2009[MM/dd/yyyy]}:0</enddate>
+          <rateTrendingDefaultDate>T_Plus_N{01/02/2008[MM/dd/yyyy]}:0</rateTrendingDefaultDate>
+        </params>
+      </custom>
+    </view>
+    <view identifier="EquityFinanceBlotter" pageinuse="custom">
+      <custom pageurl="Modules/PTreasuryFinance/Blotter.aspx">
+        <params>
+          <startdate>T_Plus_N{09/03/2009[MM/dd/yyyy]}:0</startdate>
+        </params>
+      </custom>
+    </view>
+  </PTreasuryFinance>
+  <PMarketData>
+    <view identifier="MarketMeasureSetting" pageinuse="custom">
+      <custom pageurl="Modules/MarketData/MarketMeasureSetting.aspx" />
+    </view>
+    <view identifier="MarketMeasureColumns" pageinuse="custom">
+      <custom pageurl="Modules/MarketData/MarketMeasureColumns.aspx" />
+    </view>
+    <view identifier="MarketMeasureViews" pageinuse="custom">
+      <custom pageurl="Modules/MarketData/MarketMeasureViews.aspx" />
+    </view>
+    <view identifier="MarketMeasureReports" pageinuse="custom">
+      <custom pageurl="Modules/MarketData/MarketMeasureReports.aspx" />
+    </view>
+  </PMarketData>
+  <Opera>
+    <view identifier="OperaConfiguration" pageinuse="custom">
+      <custom pageurl="Modules/Opera/Report.aspx" />
+    </view>
+    <view identifier="OperaReports" pageinuse="custom">
+      <custom pageurl="Modules/Opera/Default.aspx" />
+    </view>
+    <view identifier="OperaSample" pageinuse="custom">
+      <custom pageurl="Modules/Opera/Sample.aspx" />
+    </view>
+  </Opera>
+</ViewManagement>

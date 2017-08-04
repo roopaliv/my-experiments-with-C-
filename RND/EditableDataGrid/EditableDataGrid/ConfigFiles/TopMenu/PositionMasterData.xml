@@ -1,0 +1,52 @@
+﻿<root>
+
+  <section ignoreprivilege="true">
+    <header>
+      Position Grid
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Position Grid" sourcehref="Home.aspx?identifier=Menu-ProfitLoss-Positions" />
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Tag Maintenance
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Tag Maintenance" sourcehref="/Analytics/PnLViewer.aspx?PageName=ConfigureTagPage&amp;displayTest=Tag Maintenance"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Staging Blotter
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Staging Blotter" sourcehref="/Analytics/StagingViewer.aspx?displayTest=Staging Blotter"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Download Geneva-Positions
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Download Geneva-Positions" sourcehref="/JobManagement/BatchManagement.aspx?displayTest=Download Geneva-Position"/>
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Custom Reports
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Custom Reports" sourcehref="/CustomReport.aspx?ModuleName=Analytics&amp;displayTest=Position Grid"/>
+    </body>
+  </section>
+</root>

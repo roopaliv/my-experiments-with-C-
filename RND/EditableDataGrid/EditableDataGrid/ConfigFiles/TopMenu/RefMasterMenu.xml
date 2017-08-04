@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+  <section ignoreprivilege="true">
+    <header>
+      Search
+    </header>
+    <body maxitem="10">
+      <Item name="Search Data" sourcehref="Home.aspx?identifier=RefMasterPage&amp;refIdentifier=RefM_SearchData" />
+    </body>
+  </section>
+  <section ignoreprivilege="true">
+    <header>
+      Entity Management
+    </header>
+    <body maxitem="10">
+      <Item name="Create Entity" sourcehref="Home.aspx?identifier=RefMasterPage&amp;refIdentifier=RefM_EntityCreation" />
+      <Item name="Update Entity" sourcehref="Home.aspx?identifier=RefMasterPage&amp;refIdentifier=RefM_EntityUpdation" />
+      <Item name="Bulk Create/Update Entity" sourcehref="Home.aspx?identifier=RefMasterPage&amp;refIdentifier=RefM_BulkEntityCreationUpdation" />
+      <Item name="Real Time Preference" sourcehref="Home.aspx?identifier=RefMasterPage&amp;refIdentifier=RefM_RealTimePref" />
+      <Item name="Real Time Request Status" sourcehref="Home.aspx?identifier=RefMasterPage&amp;refIdentifier=RefM_RealTimebackGroundStatus" />
+    </body>
+  </section>
+  <section ignoreprivilege="true">
+    <header>
+      Entity Types
+    </header>
+    <body maxitem="3">
+      <Item name="Entity Type Wizard" sourcehref="Home.aspx?identifier=RefMasterPage&amp;refIdentifier=RefM_EntityTypeManagement" />
+    </body>
+  </section>
+  <section ignoreprivilege="true">
+    <header>
+      Data Source Setup
+    </header>
+    <body maxitem="5">
+      <Item name="Transport Task" sourcehref="Home.aspx?identifier=RefMasterPage&amp;refIdentifier=RefM_TransportTaskSetup" />
+      <Item name="Data Source Management" sourcehref="Home.aspx?identifier=RefMasterPage&amp;refIdentifier=RefM_DataSourceManagement" />
+      <Item name="Task Manager" sourcehref="Home.aspx?identifier=RefMasterPage&amp;refIdentifier=RefM_TaskManager" />
+      <Item name="Entity Prioritization" sourcehref="Home.aspx?identifier=RefMasterPage&amp;refIdentifier=RefM_EntityPrioritization" />
+      <Item name="Task Status" sourcehref="Home.aspx?identifier=RefMasterPage&amp;refIdentifier=RefM_TaskStatus" />
+    </body>
+  </section>
+  <section ignoreprivilege="true">
+    <header>
+      Exception Management
+    </header>
+    <body maxitem="3">
+      <Item name="Exception Manager" sourcehref="Home.aspx?identifier=RefMasterPage&amp;refIdentifier=RefM_ExceptionManager" />
+    </body>
+  </section>
+  <section ignoreprivilege="true">
+    <header>
+      Reports
+    </header>
+    <body maxitem="10">
+      <Item name="Report Configuration" sourcehref="Home.aspx?identifier=RefMasterPage&amp;refIdentifier=RefM_ReportRepository" />
+      <Item name="Report Viewer" sourcehref="Home.aspx?identifier=RefMasterPage&amp;refIdentifier=RefM_ReportViewer" />
+      <Item name="Report System Management" sourcehref="Home.aspx?identifier=RefMasterPage&amp;refIdentifier=RefM_ReportSystemManagement" />
+      <Item name="Report System Task Status" sourcehref="Home.aspx?identifier=RefMasterPage&amp;refIdentifier=RefM_ReportSystemTaskStatus" />
+    </body>
+  </section>
+</root>

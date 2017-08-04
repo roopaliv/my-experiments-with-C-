@@ -1,0 +1,5 @@
+C:\Shared\RND\BackGroundWorkerThread\BackGroundWorkerThread\bin\Debug\BackGroundWorkerThread.exe
+C:\Shared\RND\BackGroundWorkerThread\BackGroundWorkerThread\bin\Debug\BackGroundWorkerThread.pdb
+C:\Shared\RND\BackGroundWorkerThread\BackGroundWorkerThread\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Shared\RND\BackGroundWorkerThread\BackGroundWorkerThread\obj\x86\Debug\BackGroundWorkerThread.exe
+C:\Shared\RND\BackGroundWorkerThread\BackGroundWorkerThread\obj\x86\Debug\BackGroundWorkerThread.pdb

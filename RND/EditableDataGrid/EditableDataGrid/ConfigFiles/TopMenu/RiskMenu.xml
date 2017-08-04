@@ -1,0 +1,34 @@
+﻿<root>
+  <section ignoreprivilege="true">
+    <header>
+      Risk DashBoards
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Risk DashBoards" sourcehref="Home.aspx?identifier=RiskDashboardReport" />
+    </body>
+  </section>
+
+  <section ignoreprivilege="true">
+    <header>
+      Fixed Income Analysis
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Exposure And Stress Analysis" sourcehref="Home.aspx?identifier=ExposureStressAnalysis" />
+      <Item name="Yield Analysis" sourcehref="Home.aspx?identifier=YieldAnalysis" />
+      <Item name="Capital Structure Distribution" sourcehref="Home.aspx?identifier=CapitalStructure" />
+      <Item name="Investment Details" sourcehref="Home.aspx?identifier=InvestmentDetails" />
+    </body>
+  </section>
+  <!--
+  <section ignoreprivilege="true">
+    <header>
+      Custom Reports
+    </header>
+    <br/>
+    <body maxitem="5">
+      <Item name="Custom Reports" sourcehref="/CustomReport.aspx?ModuleName=Risk"/>
+    </body>
+  </section>-->
+</root>
